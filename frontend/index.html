@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ForgetMeNot AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🤖 ForgetMeNot AI 💻</h1>
+  <p class="subtitle">Balancing remembering and forgetting, just like us...</p>
+
+  <div class="tabs">
+    <button class="tablink active" onclick="openTab('addTab', event)">➕ Add Memory</button>
+    <button class="tablink" onclick="openTab('memoriesTab', event)">📋 Memories</button>
+    <button class="tablink" onclick="openTab('searchTab', event)">🔍 Search</button>
+    <button class="tablink" onclick="openTab('oldTab', event)">🕒 Old Memories</button>
+  </div>
+
+  <div class="tabcontent" id="addTab">
+    <h2>Add New Memory</h2>
+    <input type="text" id="contentInput" placeholder="What do you want to remember?">
+    <input type="number" id="salienceInput" placeholder="Salience (e.g., 0.9)" step="0.1" value="1">
+    <button onclick="addMemory()">Add Memory</button>
+  </div>
+
+  <div class="tabcontent" id="memoriesTab" style="display:none;">
+    <h2>All Memories</h2>
+    <div id="memoriesList" class="cards-container"></div>
+  </div>
+
+  <div class="tabcontent" id="searchTab" style="display:none;">
+    <h2>Search Memories</h2>
+    <input type="text" id="searchInput" placeholder="Search by content">
+    <button onclick="searchMemories()">Search</button>
+    <div id="searchResults" class="cards-container"></div>
+  </div>
+
+  <div class="tabcontent" id="oldTab" style="display:none;">
+    <h2>Old Memories (Not accessed in 30+ days)</h2>
+    <div id="oldMemoriesList" class="cards-container"></div>
+  </div>
+
+  <div id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
