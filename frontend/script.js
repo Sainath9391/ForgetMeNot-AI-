@@ -1,4 +1,4 @@
-const apiUrl = "https://forgetmenot-ai-project.onrender.com/api/memories/";
+const apiUrl = "https://forgetmenot-ai-project.onrender.com";
 
 
 function openTab(tabId, event) {
