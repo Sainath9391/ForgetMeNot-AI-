@@ -16,7 +16,7 @@ function openTab(tabId, event) {
 
 // Add memory
 async function addMemory() {
-  const content = document.getElementById("contentInput").value;
+  const content = document.getElementById("contentInput").value.trim();
   const salience = parseFloat(document.getElementById("salienceInput").value);
 
   if (!content || isNaN(salience)) {
@@ -24,11 +24,27 @@ async function addMemory() {
     return;
   }
 
-  await fetch(MEMORIES_URL, {
+  // Step 1: Check if memory already exists (case-insensitive)
+  const resCheck = await fetch(`${MEMORIES_URL}?search=${encodeURIComponent(content)}`);
+  if (resCheck.ok) {
+    const existing = await resCheck.json();
+    if (Array.isArray(existing) && existing.some(mem => mem.content.toLowerCase() === content.toLowerCase())) {
+      showToast("⚠️ Memory already exists!");
+      return; // Stop here, don't add duplicate
+    }
+  }
+
+  // Step 2: Add new memory if no duplicate
+  const res = await fetch(MEMORIES_URL, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ content, salience })
   });
+
+  if (!res.ok) {
+    showToast("❌ Failed to add memory");
+    return;
+  }
 
   showToast("✅ Memory added!");
   document.getElementById("contentInput").value = "";
