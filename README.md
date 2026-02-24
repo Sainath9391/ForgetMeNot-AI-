@@ -2,144 +2,169 @@
 
 <br/>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=ForgetMeNot%20AI&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Simulating%20Human%20Memory%20Decay%20with%20Exponential%20Functions&descAlignY=58&descSize=16" />
+
+<br/>
+
 <a href="https://github.com/yourusername/forgetmenot-ai">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=700&size=26&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&multiline=false&width=650&height=60&lines=ForgetMeNot+AI;Simulating+Human+Memory+Decay+with+Math+%26+ML" alt="ForgetMeNot AI" />
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=18&duration=3500&pause=1000&color=818CF8&center=true&vCenter=true&width=600&height=45&lines=FastAPI+%2B+MongoDB+%2B+Python;Cognitive+Science+meets+Software+Engineering;Memory+Decay+%E2%86%92+salience+%C3%97+e%5E(%E2%88%92rate+%C3%97+age)" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
+[![Python](https://img.shields.io/badge/Python_3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
 
 <br/>
 
-[![Stars](https://img.shields.io/github/stars/yourusername/forgetmenot-ai?style=flat-square&color=A78BFA&label=Stars)](https://github.com/yourusername/forgetmenot-ai/stargazers)
-[![Forks](https://img.shields.io/github/forks/yourusername/forgetmenot-ai?style=flat-square&color=A78BFA&label=Forks)](https://github.com/yourusername/forgetmenot-ai/network)
-[![License](https://img.shields.io/badge/License-MIT-A78BFA?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-A78BFA?style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/yourusername/forgetmenot-ai?style=flat-square&color=818CF8&label=Stars)](https://github.com/yourusername/forgetmenot-ai/stargazers)
+[![Forks](https://img.shields.io/github/forks/yourusername/forgetmenot-ai?style=flat-square&color=818CF8&label=Forks)](https://github.com/yourusername/forgetmenot-ai/network)
+[![License](https://img.shields.io/badge/License-MIT-818CF8?style=flat-square)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-22D3EE?style=flat-square)](#)
 
 <br/>
 
-**[Live Demo](#)** &nbsp;·&nbsp; **[Report Bug](#)** &nbsp;·&nbsp; **[Request Feature](#)**
+[**Live Demo**](#) &nbsp;·&nbsp; [**API Docs**](#) &nbsp;·&nbsp; [**Report Bug**](#) &nbsp;·&nbsp; [**Request Feature**](#)
 
 <br/>
-
----
 
 </div>
 
-## Table of Contents
-
-- [About the Project](#about-the-project)
-- [Why This Matters](#why-this-matters)
-- [Real-World Use Cases](#real-world-use-cases)
-- [Tech Stack](#tech-stack)
-- [Key Features](#key-features)
-- [Architecture & Data Flow](#architecture--data-flow)
-- [Technical Overview](#technical-overview)
-- [Implementation & Code](#implementation--code)
-- [Example Output](#example-output)
-- [How It All Connects](#how-it-all-connects)
-- [Roadmap](#roadmap)
-- [Business & Research Impact](#business--research-impact)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ---
 
-## About the Project
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-**ForgetMeNot AI** simulates human-like memory decay using exponential functions. Users store "memories" with varying importance scores (salience), and the system automatically reduces their value over time — modelling how the human brain forgets.
+## &nbsp; Table of Contents
 
-> Inspired by the Ebbinghaus Forgetting Curve — one of the most foundational models in cognitive psychology.
+&nbsp;&nbsp; [01 &nbsp; About the Project](#-about-the-project) &nbsp;·&nbsp;
+[02 &nbsp; Why This Matters](#-why-this-matters) &nbsp;·&nbsp;
+[03 &nbsp; Use Cases](#-real-world-use-cases) &nbsp;·&nbsp;
+[04 &nbsp; Tech Stack](#-tech-stack)
 
----
+&nbsp;&nbsp; [05 &nbsp; Key Features](#-key-features) &nbsp;·&nbsp;
+[06 &nbsp; Architecture](#-architecture--data-flow) &nbsp;·&nbsp;
+[07 &nbsp; Technical Overview](#-technical-overview) &nbsp;·&nbsp;
+[08 &nbsp; Code](#-implementation--code)
 
-## Why This Matters
+&nbsp;&nbsp; [09 &nbsp; Example Output](#-example-output) &nbsp;·&nbsp;
+[10 &nbsp; How It Connects](#-how-it-all-connects) &nbsp;·&nbsp;
+[11 &nbsp; Roadmap](#-roadmap) &nbsp;·&nbsp;
+[12 &nbsp; Impact](#-business--research-impact)
 
-Memory decay is a core concept across cognitive science, education, and AI. This project provides an interactive, mathematically grounded simulation of how information fades — giving developers and researchers a programmable base to build upon.
+&nbsp;&nbsp; [13 &nbsp; Installation](#-installation) &nbsp;·&nbsp;
+[14 &nbsp; Usage](#-usage) &nbsp;·&nbsp;
+[15 &nbsp; Contributing](#-contributing) &nbsp;·&nbsp;
+[16 &nbsp; License](#-license)
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## Real-World Use Cases
+<br/>
 
-- Adaptive learning systems that schedule revision at optimal intervals
-- Personal knowledge management tools with intelligent decay
-- Mental health research simulations for memory modelling
-- Cognitive architecture in AI agents that prioritize recency
+## ◈ About the Project
 
----
+**ForgetMeNot AI** models the human brain's forgetting mechanism as a programmable system. Every memory stored has a salience score that decays exponentially over time — mirroring the Ebbinghaus Forgetting Curve from cognitive psychology.
 
-## Tech Stack
+```
+Retention(t) = salience × e^(−rate × age_in_days)
+```
 
-| Layer | Technology |
+Store a memory today with a salience of `1.0`. Come back in 30 days — it has faded to `0.74`. Come back in 100 days — it is `0.37`. This is not approximation. This is the math behind human forgetting.
+
+<br/>
+
+## ◈ Why This Matters
+
+Memory decay sits at the intersection of neuroscience, AI, and education. Most software treats stored data as static — this project treats it as living, fading, and requiring reinforcement. That shift in perspective is what makes ForgetMeNot AI useful for research and extensible for production systems.
+
+<br/>
+
+## ◈ Real-World Use Cases
+
+| Domain | Application |
 |---|---|
-| Backend | Python, FastAPI, Motor (async MongoDB driver) |
-| Database | MongoDB |
-| Frontend | HTML, CSS, Vanilla JavaScript |
-| Config | python-dotenv, CORS middleware |
+| EdTech | Spaced repetition engines that schedule review at optimal decay thresholds |
+| AI Agents | Agents that deprioritize stale knowledge and surface recent, high-salience context |
+| Psychology | Baseline forgetting simulations for cognitive research |
+| Healthcare | Memory degradation modelling for cognitive decline studies |
+| PKM Tools | Personal knowledge bases with intelligent information aging |
 
----
+<br/>
 
-## Key Features
+## ◈ Tech Stack
+
+<div align="center">
+
+| Layer | Technology | Purpose |
+|---|---|---|
+| **Backend** | Python 3.10+, FastAPI | REST API, routing, business logic |
+| **Database** | MongoDB + Motor | Async data persistence |
+| **Frontend** | HTML, CSS, JavaScript | UI and API interaction |
+| **Config** | python-dotenv, CORS | Environment and security middleware |
+
+</div>
+
+<br/>
+
+## ◈ Key Features
 
 - Store memories with custom salience scores and auto-generated timestamps
-- Exponential decay applied automatically on every retrieval
-- Clean REST API for third-party integration
-- Lightweight frontend UI to interact with and visualize memory states
+- Exponential decay computed live on every retrieval — no scheduled jobs
+- Auto-generated interactive API docs via FastAPI at `/docs`
+- Lightweight vanilla JS frontend with no build tooling required
+- Fully async backend using Motor for non-blocking MongoDB operations
 
----
+<br/>
 
-## Architecture & Data Flow
+## ◈ Architecture & Data Flow
 
 ```
-User (Browser)
-     │
-     │  POST /memories/     ←  Submit new memory + salience
-     │  GET  /memories/     ←  Retrieve with live-computed decay
-     ▼
-FastAPI Backend
-     │
-     ├── Validates input
-     ├── Stores in MongoDB  (content · salience · timestamp)
-     │
-     └── On retrieval →  Decay Module
-                              │
-                              └──  salience × e^(−rate × age_in_days)
-                                          │
-                                          ▼
-                                   Decayed value returned to frontend
+┌─────────────────────────────────────────────────────────────┐
+│                        Browser (Frontend)                    │
+│          POST /memories/               GET /memories/        │
+└────────────────────┬───────────────────────┬────────────────┘
+                     │                       │
+                     ▼                       ▼
+┌─────────────────────────────────────────────────────────────┐
+│                     FastAPI Backend                          │
+│                                                             │
+│  ┌─────────────────┐        ┌──────────────────────────┐   │
+│  │  Input Handler  │        │      Decay Module         │   │
+│  │  Validates &    │        │  salience × e^(−r × age) │   │
+│  │  stores to DB   │        │  Applied on every GET     │   │
+│  └────────┬────────┘        └──────────────┬───────────┘   │
+│           │                                │                │
+└───────────┼────────────────────────────────┼────────────────┘
+            │                                │
+            ▼                                ▼
+┌───────────────────────────────────────────────────────────┐
+│                       MongoDB                              │
+│    { content, salience (original), timestamp, _id }       │
+└───────────────────────────────────────────────────────────┘
 ```
 
----
+<br/>
 
-## Technical Overview
+## ◈ Technical Overview
 
-Each memory document holds three fields:
+<div align="center">
 
 | Field | Type | Description |
 |---|---|---|
 | `content` | `string` | The textual memory |
-| `salience` | `float` | Importance score at time of creation |
-| `timestamp` | `datetime` | Auto-generated on insert |
+| `salience` | `float 0.0–1.0` | Importance at time of creation |
+| `timestamp` | `datetime (UTC)` | Auto-generated on insert |
 
-**Decay Formula**
+</div>
 
-```
-decayed_salience = salience × e^(−rate × age)
-```
+The original salience is stored unchanged in MongoDB. Decay is computed dynamically at query time — meaning historical data is never mutated and decay parameters can be changed retroactively.
 
-Where `age` is the number of days since the memory was created, and `rate` controls how quickly it fades (default: `0.01`). A higher rate means faster forgetting.
+<br/>
 
----
+## ◈ Implementation & Code
 
-## Implementation & Code
-
-**`decay.py`** — the memory engine
+**`decay.py`**
 
 ```python
 import math
@@ -147,26 +172,29 @@ from datetime import datetime, timezone
 
 def decay(salience: float, timestamp_str: str, rate: float = 0.01) -> float:
     timestamp = datetime.fromisoformat(timestamp_str).replace(tzinfo=timezone.utc)
-    now = datetime.now(timezone.utc)
-    age = (now - timestamp).days
-    return salience * math.exp(-rate * age)
+    age_in_days = (datetime.now(timezone.utc) - timestamp).days
+    return round(salience * math.exp(-rate * age_in_days), 4)
 ```
 
-**`main.py`** — FastAPI application
+**`main.py`**
 
 ```python
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
+from datetime import datetime, timezone
 from decay import decay
+import os
 
-app = FastAPI()
+app = FastAPI(title="ForgetMeNot AI")
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"])
 
-app.add_middleware(CORSMiddleware, allow_origins=["*"])
+client = AsyncIOMotorClient(os.getenv("MONGO_URI"))
+db = client.forgetmenot
 
 @app.post("/memories/")
 async def add_memory(content: str, salience: float):
-    doc = {"content": content, "salience": salience, "timestamp": datetime.utcnow()}
+    doc = {"content": content, "salience": salience, "timestamp": datetime.now(timezone.utc)}
     await db.memories.insert_one(doc)
     return {"status": "stored"}
 
@@ -175,14 +203,15 @@ async def get_memories():
     memories = await db.memories.find().to_list(100)
     for m in memories:
         m["salience"] = decay(m["salience"], m["timestamp"].isoformat())
+        m["_id"] = str(m["_id"])
     return memories
 ```
 
----
+<br/>
 
-## Example Output
+## ◈ Example Output
 
-**POST** `/memories/`
+**`POST /memories/`** — Store a new memory
 
 ```json
 {
@@ -191,65 +220,68 @@ async def get_memories():
 }
 ```
 
-**GET** `/memories/` — retrieved after 30 days
+**`GET /memories/`** — Retrieved after 30 days
 
 ```json
 [
   {
+    "_id": "64f3a2...",
     "content": "Learned FastAPI",
-    "salience": 0.74,
-    "timestamp": "2025-08-01T10:00:00"
+    "salience": 0.7408,
+    "timestamp": "2025-08-01T10:00:00+00:00"
   }
 ]
 ```
 
-> Salience dropped from `1.0` to `0.74` over 30 days at the default decay rate.
+> Salience decayed from `1.0` → `0.74` over 30 days at the default rate of `0.01`.  
+> At 100 days: `0.37`. At 200 days: `0.14`. The forgetting curve in action.
 
----
+<br/>
 
-## How It All Connects
+## ◈ How It All Connects
 
 ```
-Frontend        →   Captures user input, renders decayed memory list
-FastAPI Backend →   Handles routing, validation, and MongoDB operations
-Decay Module    →   Applies the forgetting curve formula on every retrieval
-MongoDB         →   Persists memories with original salience and timestamp
+Frontend   →   Captures user input · Renders decayed memory list
+FastAPI    →   Routes requests · Validates input · Interfaces with MongoDB
+Decay      →   Applies forgetting curve formula on every GET request
+MongoDB    →   Stores original salience + timestamp — never mutated
 ```
 
-Every GET request recomputes decay in real time — no scheduled jobs, no stale data.
+Every retrieval recomputes decay in real time. No background jobs. No cron. No stale values.
 
----
+<br/>
 
-## Roadmap
+## ◈ Roadmap
 
 - [ ] Graphical decay curve visualization per memory
-- [ ] Adjustable decay rate per individual memory
-- [ ] User authentication and memory isolation
-- [ ] Long-term memory reinforcement (spaced repetition logic)
-- [ ] Export memory state as CSV or JSON
-- [ ] WebSocket support for live decay updates
+- [ ] Configurable decay rate per individual memory entry
+- [ ] User authentication and per-user memory isolation
+- [ ] Spaced repetition — reinforcement logic to reset decay on review
+- [ ] Memory export as JSON or CSV
+- [ ] WebSocket support for live salience counter
 
----
+<br/>
 
-## Business & Research Impact
+## ◈ Business & Research Impact
 
-- **EdTech** — power personalized revision schedulers (e.g. spaced repetition engines)
-- **AI Agents** — enable agents to weight short-term vs. long-term knowledge dynamically
-- **Psychology Research** — base simulation for memory and forgetting models
-- **Healthcare** — memory degradation modelling for cognitive studies
+- **EdTech** — Build intelligent revision schedulers that surface content exactly when it is about to be forgotten
+- **AI Agents** — Enable agents to weight recent, high-salience knowledge over stale context
+- **Cognitive Research** — Baseline simulation layer for forgetting and memory reinforcement studies
+- **Healthcare** — Provide a programmable model base for memory degradation analysis
 
----
+<br/>
 
-## Installation
+## ◈ Installation
 
 **Backend**
 
 ```bash
-cd backend
+git clone https://github.com/yourusername/forgetmenot-ai.git
+cd forgetmenot-ai/backend
 pip install -r requirements.txt
 ```
 
-Create a `.env` file in `/backend`:
+Create `backend/.env`:
 
 ```env
 MONGO_URI=your_mongodb_connection_string
@@ -258,66 +290,64 @@ MONGO_URI=your_mongodb_connection_string
 **Frontend**
 
 ```bash
-# Open directly in browser
+# Open directly
 open frontend/index.html
 
 # Or serve with live-server
 npx live-server frontend/
 ```
 
----
+<br/>
 
-## Usage
+## ◈ Usage
 
 ```bash
-# Start the backend
+# Start the API server
 uvicorn main:app --reload
 
-# API available at
+# API base URL
 http://localhost:8000
 
-# Interactive API docs (auto-generated by FastAPI)
+# Interactive Swagger docs (auto-generated)
 http://localhost:8000/docs
 ```
 
-Open the frontend in a browser and interact with the memory interface directly.
+<br/>
 
----
-
-## Contributing
+## ◈ Contributing
 
 ```bash
 git checkout -b feature/your-feature
-git commit -m "feat: your change"
+git commit -m "feat: describe your change"
 git push origin feature/your-feature
 # Open a Pull Request
 ```
 
-Follow [Conventional Commits](https://www.conventionalcommits.org/) for all messages. Bug reports and suggestions are welcome via [Issues](#).
-
----
-
-## License
-
-MIT License — see [`LICENSE`](LICENSE) for details.
-
----
-
-<div align="center">
+Follow [Conventional Commits](https://www.conventionalcommits.org/). Issues and suggestions welcome.
 
 <br/>
 
+## ◈ License
+
+MIT License — see [`LICENSE`](LICENSE) for full details.
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
+
+<div align="center">
+
 **Pendalwar Sainath**  
-_Full-Stack Developer · AI & Cognitive Systems · Python · FastAPI_
+_Full-Stack Developer &nbsp;·&nbsp; AI & Cognitive Systems &nbsp;·&nbsp; Python &nbsp;·&nbsp; FastAPI_
 
 <br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername)
-[![Portfolio](https://img.shields.io/badge/Portfolio-A78BFA?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-818CF8?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.dev)
 
 <br/>
 
-<sub>Built with precision · Grounded in science · Designed for impact</sub>
+<sub>Built with precision &nbsp;·&nbsp; Grounded in science &nbsp;·&nbsp; Designed for impact</sub>
 
 </div>
